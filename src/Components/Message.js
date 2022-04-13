@@ -25,7 +25,7 @@ const Message = ({ messages, users }) => {
             <div className="Message-content">
               <div className="username">{message.username}</div>
               <div className="timestamp">{timeStamp.hours}:{timeStamp.minutes}</div>
-              <div className="textBox" style={{backgroundColor: `${message.userColor}40`}}>
+              <div className="textBox" style={{backgroundColor: `${message.userColor}45`}}>
                 <div className="text">{message.text}</div>
               </div>
             </div>
